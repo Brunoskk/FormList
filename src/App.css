@@ -1,38 +1,124 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+div.container{
+
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 40px;
+    box-shadow: 1px 1px 5px #666, 1px 1px 1px #836FFF;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    width: 300px;
+    height:400px;
+    
+    
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+div h1{
+
+    color: #836FFF;
+    text-align: center;
+    flex-direction: column;
+    font-size: 20px;
+    padding-bottom: 50px;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+label.titulo{
+
+ 
+    align-items: baseline;
+    color: #836FFF;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+div .nome{
+
+    padding-left: 2px;
+    padding-bottom: 20px;
+    
+
 }
 
-.App-link {
-  color: #61dafb;
+input.boxs {
+
+    align-items: baseline;
+    width: 100%;
+    height: 32px;
+    font-size: 14px;
+    color: #666;
+    border: 0;
+    border-bottom: 1px solid black;
+    outline: 0;
+
+    
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+div.tarefa{
+
+    padding-bottom: 200px;
+    
+}
+
+div.botao {
+
+text-align: center;
+margin-top: -30%;
+border-radius: 10px;
+font-size: 10px;
+
+}
+
+div.botao button#inputbutton{
+
+    font-size: 15px;
+    border-radius: 2em;
+    background-color: white;
+    border: 0;
+    border: 1px solid black;
+    padding: 10px 20px;
+    cursor: pointer;
+    outline: 0;
+    transition: background 1s;
+}
+
+div.botao button#inputbutton:hover {
+    background: #808080;
+}
+
+table.tabela, td, tr{
+
+    align-items: center;
+    flex: 1;
+    margin: 0 auto;
+    border: 1px solid black;
+    background-color: white;
+    border-collapse: collapse;
+    box-shadow: 1px 1px 1px #666, 1px 1px 1px #836FFF;
+    padding: 10px 10px;
+    margin-top: 100px;
+    
+}
+
+table.tabela td#tituloTabela{
+
+
+color: #836FFF;
+text-align: center;
+
+
+}
+
+table.tabela tr#cabecalho{
+
+    text-align: center;
+
 }

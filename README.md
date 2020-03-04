@@ -1,3 +1,13 @@
+### Instructions
+
+Clone the repository, open up folder of project, execute 'yarn install' or 'npm install' download for install for dependencies of project.
+
+### Note
+
+A simple project in React destined learning about, the project is a simple Form, insert in information in form generating a list of tasks
+
+###
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
